@@ -1,0 +1,91 @@
+.wrapper {
+    max-width: 780px;
+    margin: 0 auto;
+}
+.winner-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    margin-bottom: 30px;
+    border: 1px solid #000000;
+    border-radius: 2px;
+}
+
+.winner {
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+}
+
+.winner > div {
+    display: inline;
+}
+
+h2 {
+    text-align: center;
+}
+
+.form-wrapper {
+    border: 1px solid #000000;
+    border-radius: 2px;
+    padding: 0 20px 20px;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+
+}
+
+.form-group label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.form-group input {
+    display: inline-block;
+    width: 80%;
+    padding: 7px 10px;
+    font-size: 14px;
+    border: 1px solid #000000;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+
+form .button, .winner-button{
+    box-sizing: border-box;
+    text-align: center;
+    color: #000000;
+    padding: 7px 30px;
+    border-radius: 2px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+form .button {
+    float: right;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse}
+tr th {
+    height: 40px;
+}
+
+th, td {
+    border: 1px solid #000000;
+}
+
+td {
+    padding: 3px 7px;
+    font-size: 15px;
+}

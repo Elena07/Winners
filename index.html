@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProgForce</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+</header>
+<main>
+    <div class="wrapper">
+        <div class="winner-wrapper">
+            <div class="winner">
+                <div class="win">Winners:  </div>
+                <div class="winner-name" id="winner">...</div>
+            </div>
+            <button type="button" class="winner-button" id="newWinner">New winner</button>
+        </div>
+        <form id="form1">
+            <div class="form-wrapper">
+                <h2>Registration form</h2>
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" placeholder="" pattern="[a-zA-Z]+" required>
+                </div>
+                <div class="form-group">
+                    <label for="surname">Surname:</label>
+                    <input type="text" id="surname" placeholder="" pattern="[a-zA-Z]+" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" placeholder="" pattern="[0-9]+">
+                </div>
+            </div>
+            <button type="submit" class="button" id="save">Save</button>
+        </form>
+        <table id="table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Surname</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                </tr>
+            </thead>
+            <tbody class="tbody">
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+        </table>
+    </div>
+</main>
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
